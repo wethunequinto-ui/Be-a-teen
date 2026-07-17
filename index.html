@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Be A Teen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Be A Teen 🚀</h1>
+    <p>Helping teenagers prepare for life, one journey at a time.</p>
+</header>
+
+<section class="box">
+    <h2>Choose a Situation</h2>
+
+    <button onclick="showJourney('school')">
+        Starting a New School
+    </button>
+
+    <button onclick="showJourney('confidence')">
+        Building Confidence
+    </button>
+
+    <button onclick="showJourney('pressure')">
+        Handling Pressure
+    </button>
+
+</section>
+
+
+<section class="box">
+    <h2>My Own Issue</h2>
+
+    <input id="issue" placeholder="Write your situation here">
+
+    <button onclick="customIssue()">
+        Get Guidance
+    </button>
+
+</section>
+
+
+<section class="box">
+    <h2>Your Journey</h2>
+
+    <p id="result">
+        Select a situation to begin your journey.
+    </p>
+
+    <button onclick="readText()">
+        🔊 Read Aloud
+    </button>
+
+</section>
+
+
+<section class="box">
+    <h2>Choose Voice Theme</h2>
+
+    <button onclick="changeTheme('calm')">
+        Calm Voice
+    </button>
+
+    <button onclick="changeTheme('energy')">
+        Energetic Voice
+    </button>
+
+    <button onclick="changeTheme('friendly')">
+        Friendly Voice
+    </button>
+
+</section>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
